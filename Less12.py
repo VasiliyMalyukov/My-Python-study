@@ -1,4 +1,4 @@
-# Lesson topic^ 'for' loop
+# Lesson topic 'for' loop
 
 for i in range(10):
     print('Привет')
