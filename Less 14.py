@@ -26,9 +26,9 @@ else:
 
 m, n = int(input()), int(input())
 
-# for i in range (m, n - 1, - 1):
-#     if i % 2 == 1:
-#         print(i)
+for i in range (m, n - 1, - 1):
+    if i % 2 == 1:
+        print(i)
 
 # Task 4: Given two natural numbers M and N. Write a program that prints all numbers from M to N inclusive
 # satisfying at least one of the following conditions:
@@ -36,15 +36,15 @@ m, n = int(input()), int(input())
 # the number ends in 9;
 # the number is a multiple of 3 and 5 at the same time.
 
-# m, n = int(input()), int(input())
-#
-# for i in range(m, n + 1):
-#     if i % 17 == 0:
-#         print(i)
-#     elif i % 10 == 9:
-#         print(i)
-#     elif (i % 3 == 0) and (i % 5 == 0):
-#         print(i)
+m, n = int(input()), int(input())
+
+for i in range(m, n + 1):
+    if i % 17 == 0:
+        print(i)
+    elif i % 10 == 9:
+        print(i)
+    elif (i % 3 == 0) and (i % 5 == 0):
+        print(i)
 
 # Task 5: Given a natural number N. Write a program that prints the multiplication table for N.
 
