@@ -22,7 +22,7 @@ print(counter)
 
 print()
 
-# Task 1:
+# Task 1: 
 
 n = int(input())
 
